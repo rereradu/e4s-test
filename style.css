@@ -1,0 +1,26 @@
+.task {
+    padding: .5em 1em;
+    border: 1px solid #fbfb;
+    margin: 0 0 .25em;
+}
+
+.finished-task {
+    padding: .5em 1em;
+    border: 1px solid green;
+    margin: 0 0 .25em;
+    text-decoration: line-through;
+}
+
+.deleteTask {
+    margin: 0 .25em 0;
+    cursor: pointer;
+    color: blue;
+    vertical-align: text-bottom;
+    padding: .25em;
+    background: #ccc;
+    text-decoration: none;
+    display: inline-block;
+}
+.error {
+    color: red;
+}
